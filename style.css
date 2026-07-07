@@ -106,7 +106,7 @@ span {
 
 .hero {
 
-    min-height: 100vh;
+    min-height: 90vh;
 
     display: flex;
 
@@ -133,13 +133,18 @@ span {
 
 .hero h1 {
 
-    font-size: clamp(42px, 7vw, 92px);
+    font-size: clamp(34px, 4vw, 64px);
 
-    line-height: 1.15;
+    line-height: 1.2;
+
+    max-width: 900px;
+
+    margin-left:auto;
+    margin-right:auto;
 
     color: var(--gold);
 
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 
 }
 
@@ -148,7 +153,9 @@ span {
 
 .subtitle {
 
-    font-size: 24px;
+    font-size:20px;
+
+    line-height:1.5;
 
     color: #aaa;
 
