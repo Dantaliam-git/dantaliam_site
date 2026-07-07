@@ -541,16 +541,6 @@
         document.querySelectorAll('.card').forEach((card, index) => {
             card.style.transitionDelay = `${index * 0.1}s`;
         });
-        function trackTelegramClick(label) {
-    console.log("Telegram click:", label);
-
-    // Cloudflare Web Analytics event
-    if (window._cf) {
-        _cf.q.push(["trackEvent", {
-            event: "telegram_click",
-            label: label
-        }]);
-    }
 
     // fallback (просто чтобы не ломалось)
     return true;
