@@ -296,7 +296,7 @@ span {
 .section-title h2,
 .section h2 {
 
-    font-size:clamp(38px,5vw,70px);
+    font-size:clamp(32px,3.5vw,52px);
 
     color:var(--gold);
 
