@@ -755,7 +755,9 @@ footer p {
 
 .hero h1 {
 
-    font-size:38px;
+    font-size:32px;
+
+    line-height:1.25;
 
 }
 
@@ -763,7 +765,9 @@ footer p {
 
 .subtitle {
 
-    font-size:18px;
+    font-size:17px;
+
+    line-height:1.5;
 
 }
 
