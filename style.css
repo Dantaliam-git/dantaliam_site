@@ -133,18 +133,19 @@ span {
 
 .hero h1 {
 
-    font-size: clamp(34px, 4vw, 64px);
+    font-size: clamp(34px, 4.5vw, 64px);
 
     line-height: 1.2;
-
-    max-width: 900px;
-
-    margin-left:auto;
-    margin-right:auto;
 
     color: var(--gold);
 
     margin-bottom: 35px;
+
+    max-width: 900px;
+
+    margin-left: auto;
+
+    margin-right: auto;
 
 }
 
@@ -153,13 +154,19 @@ span {
 
 .subtitle {
 
-    font-size:20px;
+    font-size: 20px;
 
-    line-height:1.5;
+    line-height: 1.5;
 
     color: #aaa;
 
     margin-bottom: 20px;
+
+    max-width: 700px;
+
+    margin-left: auto;
+
+    margin-right: auto;
 
 }
 
@@ -167,11 +174,19 @@ span {
 
 .description {
 
-    font-size: 18px;
+    font-size: 16px;
+
+    line-height: 1.7;
 
     color: #777;
 
-    margin-bottom: 50px;
+    margin-bottom: 45px;
+
+    max-width: 650px;
+
+    margin-left: auto;
+
+    margin-right: auto;
 
 }
 
